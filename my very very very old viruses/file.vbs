@@ -1,0 +1,1 @@
+x=msgbox ("virus", 64,"pow!")
